@@ -1,0 +1,72 @@
+{
+  "dependencies": {
+    "com.unity.ads": "2.0.8",
+    "com.unity.analytics": "3.3.2",
+    "com.unity.collab-proxy": "1.2.16",
+    "com.unity.package-manager-ui": "2.1.2",
+    "com.unity.postprocessing": "2.1.4",
+    "com.unity.purchasing": "2.0.6",
+    "com.unity.textmeshpro": "2.0.1",
+    "com.unity.timeline": "1.0.0",
+    "com.unity.xr.oculus.standalone": "1.36.0",
+    "com.unity.xr.openvr.standalone": "1.0.5",
+    "com.unity.xr.windowsmr.metro": "1.0.12",
+    "com.xrtk.core": "https://github.com/XRTK/XRTK-Core.git#0.1.11",
+    "com.xrtk.lumin": "https://github.com/XRTK/Lumin.git#0.1.4",
+    "com.xrtk.sdk": "https://github.com/XRTK/SDK.git#0.1.8",
+    "com.xrtk.upm-git-extension": "https://github.com/XRTK/UpmGitExtension.git#0.9.6",
+    "com.xrtk.wmr": "https://github.com/XRTK/WindowsMixedReality.git#0.1.3",
+    "com.unity.modules.ai": "1.0.0",
+    "com.unity.modules.animation": "1.0.0",
+    "com.unity.modules.assetbundle": "1.0.0",
+    "com.unity.modules.audio": "1.0.0",
+    "com.unity.modules.cloth": "1.0.0",
+    "com.unity.modules.director": "1.0.0",
+    "com.unity.modules.imageconversion": "1.0.0",
+    "com.unity.modules.imgui": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.modules.particlesystem": "1.0.0",
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.modules.physics2d": "1.0.0",
+    "com.unity.modules.screencapture": "1.0.0",
+    "com.unity.modules.terrain": "1.0.0",
+    "com.unity.modules.terrainphysics": "1.0.0",
+    "com.unity.modules.tilemap": "1.0.0",
+    "com.unity.modules.ui": "1.0.0",
+    "com.unity.modules.uielements": "1.0.0",
+    "com.unity.modules.umbra": "1.0.0",
+    "com.unity.modules.unityanalytics": "1.0.0",
+    "com.unity.modules.unitywebrequest": "1.0.0",
+    "com.unity.modules.unitywebrequestassetbundle": "1.0.0",
+    "com.unity.modules.unitywebrequestaudio": "1.0.0",
+    "com.unity.modules.unitywebrequesttexture": "1.0.0",
+    "com.unity.modules.unitywebrequestwww": "1.0.0",
+    "com.unity.modules.vehicles": "1.0.0",
+    "com.unity.modules.video": "1.0.0",
+    "com.unity.modules.vr": "1.0.0",
+    "com.unity.modules.wind": "1.0.0",
+    "com.unity.modules.xr": "1.0.0"
+  },
+  "lock": {
+    "com.xrtk.core": {
+      "hash": "f6a39a3fce074f7de2e6dc0153839d9ebcfeabf4",
+      "revision": "0.1.11"
+    },
+    "com.xrtk.lumin": {
+      "hash": "b0df55adbd089275ae68f19793f410ddcc8b622c",
+      "revision": "0.1.4"
+    },
+    "com.xrtk.sdk": {
+      "hash": "2f176a543712dbbad1c0c89dc2b164dc71204209",
+      "revision": "0.1.8"
+    },
+    "com.xrtk.upm-git-extension": {
+      "hash": "7b3f68261095ff54e889ba2ae16df0a551012977",
+      "revision": "0.9.6"
+    },
+    "com.xrtk.wmr": {
+      "hash": "40f707ba94f5b34d8969246ee980dbe9c3b8ff31",
+      "revision": "0.1.3"
+    }
+  }
+}
