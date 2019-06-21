@@ -4,6 +4,7 @@ using Photon.Pun;
 using Photon.Realtime;
 using UnityEngine;
 using UnityEngine.UI;
+using XRTK.Utilities;
 
 namespace Photon {
     public class LobbyMainMenu : MonoBehaviourPunCallbacks {
@@ -41,15 +42,12 @@ namespace Photon {
             Debug.LogWarning("message:" + message);
         }
 
-        public override void OnJoinRandomFailed(short returnCode, string message) {
-        }
+        public override void OnJoinRandomFailed(short returnCode, string message) { }
 
         public override void OnJoinedRoom() {
             if (PhotonNetwork.IsMasterClient) {
                 PhotonNetwork.LoadLevel("XRSharing");
             }
-
-            foreach (Player p in PhotonNetwork.PlayerList) { }
         }
 
         public override void OnLeftRoom() { }
@@ -79,6 +77,5 @@ namespace Photon {
         }
 
         #endregion
-
     }
 }

@@ -163,6 +163,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _loginButton: {fileID: 8352037084759267}
+  _playerPrefab: {fileID: 6876568754644370542, guid: 3b8895d84a1bfa74a9008c32dab3d64b,
+    type: 3}
 --- !u!1 &8352037084759260
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,7 +309,6 @@ GameObject:
   - component: {fileID: 8352037888459432}
   - component: {fileID: 8352037888459435}
   - component: {fileID: 8352037888459434}
-  - component: {fileID: 6596259303205304140}
   m_Layer: 5
   m_Name: LobbyMenu
   m_TagString: Untagged
@@ -396,19 +397,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &6596259303205304140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8352037888459428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9896024ed44449c8b072d7340edc12c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
 --- !u!1 &8352037969571518
 GameObject:
   m_ObjectHideFlags: 0

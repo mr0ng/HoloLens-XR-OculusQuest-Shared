@@ -142,20 +142,21 @@ PrefabInstance:
       propertyPath: m_RenderMode
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 8352037888459432, guid: 46be1747025417346b197ef019ab9afa, type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8352037969571519, guid: 46be1747025417346b197ef019ab9afa, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 635
+      value: -74
       objectReference: {fileID: 0}
     - target: {fileID: 8352037969571516, guid: 46be1747025417346b197ef019ab9afa, type: 3}
       propertyPath: m_Text
       value: MR Dev Summit Hackathon
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6596259303205304140, guid: 46be1747025417346b197ef019ab9afa, type: 3}
+    - target: {fileID: 3889961868402352334, guid: 46be1747025417346b197ef019ab9afa,
+        type: 3}
+      propertyPath: _playerPrefab
+      value: 
+      objectReference: {fileID: 6876568754644370542, guid: 3b8895d84a1bfa74a9008c32dab3d64b,
+        type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46be1747025417346b197ef019ab9afa, type: 3}
 --- !u!224 &1300964000176112390 stripped
 RectTransform:
