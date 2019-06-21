@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/LobbyScene.unity
+    guid: b4bfbc4a8475ccd4abad0b44e608868f
+  - enabled: 1
     path: Assets/Scenes/XRSharing.unity
     guid: 04a37d8cf41bd724bb517d7c263528ef
   m_configObjects: {}
