@@ -4,12 +4,12 @@ using XRTK.Utilities;
 
 namespace Photon {
     public class NetworkedAvatar : MonoBehaviour {
-
         [SerializeField] private GameObject _avatarPrefab;
-    
+
         // Start is called before the first frame update
         void Start() {
-            GameObject instantiate = PhotonNetwork.Instantiate(_avatarPrefab.name, CameraCache.Main.gameObject.transform.position,
+            GameObject instantiate = PhotonNetwork.Instantiate(_avatarPrefab.name,
+                CameraCache.Main.gameObject.transform.position,
                 Quaternion.identity);
             if (!instantiate) {
                 Debug.LogError("could not spawn player.");
@@ -19,6 +19,5 @@ namespace Photon {
                 instantiate.transform.localRotation = Quaternion.identity;
             }
         }
-
     }
 }

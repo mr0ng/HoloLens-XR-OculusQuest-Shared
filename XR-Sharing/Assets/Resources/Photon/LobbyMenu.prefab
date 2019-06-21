@@ -86,7 +86,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8352036366955218}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe0a55ef565e3984f8866c5c91e3c2fd, type: 3}
+  m_Script: {fileID: 11500000, guid: 18cfc99b697873d4c8d009f133faaef6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ConnectionStatusText: {fileID: 8352038114288962}
@@ -163,8 +163,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _loginButton: {fileID: 8352037084759267}
-  _playerPrefab: {fileID: 6876568754644370542, guid: 3b8895d84a1bfa74a9008c32dab3d64b,
-    type: 3}
 --- !u!1 &8352037084759260
 GameObject:
   m_ObjectHideFlags: 0
@@ -309,6 +307,7 @@ GameObject:
   - component: {fileID: 8352037888459432}
   - component: {fileID: 8352037888459435}
   - component: {fileID: 8352037888459434}
+  - component: {fileID: 359848627016385650}
   m_Layer: 5
   m_Name: LobbyMenu
   m_TagString: Untagged
@@ -397,6 +396,19 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &359848627016385650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8352037888459428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9896024ed44449c8b072d7340edc12c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 0}
 --- !u!1 &8352037969571518
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,7 +421,7 @@ GameObject:
   - component: {fileID: 8352037969571517}
   - component: {fileID: 8352037969571516}
   m_Layer: 5
-  m_Name: PunMeteoroid
+  m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -634,7 +646,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Login
+  m_Text: Join room
 --- !u!114 &8352038338866039
 MonoBehaviour:
   m_ObjectHideFlags: 0
